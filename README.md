@@ -2,7 +2,7 @@
 
 **Sistema:** https://tarefas-nicollas-2026.windylens.chatgpt.site
 
-A página é pública; clique em **Entrar com ChatGPT** para usar suas tarefas. O GitHub ainda está pendente; este endereço é o sistema publicado.
+A página é pública; clique em **Entrar com ChatGPT** para usar suas tarefas. **Repositório GitHub:** https://github.com/72500573-alt/em-dia-gerenciador-tarefas
 
 Projeto acadêmico desenvolvido com apoio do ChatGPT/Codex. Organiza tarefas da faculdade e do cotidiano, com CRUD completo, prioridade, prazo, pesquisa e status.
 
@@ -75,4 +75,4 @@ Veja também a [verificação visual e suas pendências](docs/VALIDACAO_MANUAL.m
 Sem paginação, recuperação de exclusão ou compartilhamento de tarefas. Sem operação offline. Fonte remota tem fallback local. Não usar como armazenamento único de informação importante. Fluxos de pagamento, estoque, plano e webhook são não aplicáveis.
 
 ## Entrega acadêmica
-Confira `docs/ENTREGA_CLASSROOM.md`. Complete turma e relato pessoal após revisar e demonstrar o sistema. Publicação no GitHub e acesso externo devem ser confirmados antes de enviar ao Classroom. O repositório interno do Sites não substitui o GitHub exigido pela atividade.
+Confira `docs/ENTREGA_CLASSROOM.md`. Complete turma e relato pessoal após revisar e demonstrar o sistema. Código publicado no GitHub. Confira sua turma, revise o relato pessoal e demonstre o CRUD antes de enviar ao Classroom.

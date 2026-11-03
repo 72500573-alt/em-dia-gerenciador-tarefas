@@ -21,4 +21,4 @@ A IA produziu tela, CRUD, schema, testes e documentação. A auditoria identific
 A prévia gerenciada não fornece o login local; não se declara CRUD manual aprovado ali. A autenticação completa da plataforma não faz parte da suíte de integração. Não houve confirmação individual dos planos exigida literalmente pelos prompts de referência: foi seguido o pedido amplo de execução da atividade. O aluno deve revisar os planos, os cenários e as decisões antes da entrega. Relato pessoal de aprendizagem não foi inventado.
 
 ## Estado da entrega
-Deploy publicado e página pública confirmada. Para usar o CRUD é preciso entrar com ChatGPT. Captura real e limites dos testes manuais em `VALIDACAO_MANUAL.md`. GitHub ainda pendente por bloqueio na autenticação; nada foi enviado ao Classroom. A turma também precisa ser informada.
+Deploy publicado e página pública confirmada. Para usar o CRUD é preciso entrar com ChatGPT. Captura real e limites dos testes manuais em `VALIDACAO_MANUAL.md`. Repositório GitHub: https://github.com/72500573-alt/em-dia-gerenciador-tarefas; nada foi enviado ao Classroom. A turma também precisa ser informada.

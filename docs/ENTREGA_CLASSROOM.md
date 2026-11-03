@@ -4,7 +4,7 @@ Preencha os campos pendentes antes de enviar. Este arquivo não foi enviado ao C
 
 Nome: Nicollas Ribeiro de Souza
 Turma: PREENCHER
-Repositório GitHub: PENDENTE DE PUBLICAÇÃO
+Repositório GitHub: https://github.com/72500573-alt/em-dia-gerenciador-tarefas
 Sistema: https://tarefas-nicollas-2026.windylens.chatgpt.site
 
 Descrição: O Em dia é um gerenciador de tarefas que permite cadastrar, consultar, editar, concluir e excluir tarefas, definindo prioridade e prazo. O desenvolvimento teve apoio do ChatGPT/Codex. Foram realizadas auditorias de segurança, testes de integração com banco real e refatoração do código.

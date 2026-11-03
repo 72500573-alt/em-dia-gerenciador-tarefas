@@ -20,4 +20,4 @@ Data: 02/11/2026 (horário de Brasília).
 6. Abrir no celular e conferir formulário, filtros e ações.
 
 ## Publicação no GitHub
-O plugin foi confirmado instalado, mas suas ferramentas não ficaram disponíveis na sessão. A alternativa pelo navegador chegou ao login. Uma revisão automática bloqueou uma observação da autenticação por envolver accounts.google.com sem autorização específica confirmada. Não houve envio ao GitHub nem ao Classroom. Não foram solicitadas senhas pelo chat. O código e a documentação permanecem versionados no repositório de origem do Sites; isso não substitui o GitHub exigido.
+O acesso foi confirmado depois do login do usuário. Repositório público: https://github.com/72500573-alt/em-dia-gerenciador-tarefas. Código, testes, relatórios, migrations e captura serão enviados pela integração conectada. Nenhum envio ao Classroom foi realizado.

@@ -1,0 +1,38 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> em-dia-tarefas@0.1.0 test
+> node --test tests/*.test.mjs
+
+✔ quando cadastro dados válidos, então persiste, lista e consulta a tarefa (66.965699ms)
+✔ quando edito e concluo, então altera dados e incrementa versão (16.546711ms)
+✔ quando reabro tarefa concluída, então volta a pendente (18.632371ms)
+✔ quando excluo, então remove e repetição retorna 404 (29.121179ms)
+✔ quando envio título vazio, então retorna 400 e não grava (11.144694ms)
+✔ quando envio título longo, então retorna 400 e não grava (14.232581ms)
+✔ quando envio descrição longa, então retorna 400 e não grava (10.147101ms)
+✔ quando envio prioridade negativa, então retorna 400 e não grava (12.795911ms)
+✔ quando envio status inválido, então retorna 400 e não grava (9.284356ms)
+✔ quando envio data inexistente, então retorna 400 e não grava (8.826957ms)
+✔ quando envio data ausente, então retorna 400 e não grava (21.884406ms)
+✔ quando envio id inválido, então retorna 400 e não grava (12.477237ms)
+✔ quando uso limites exatos e ano bissexto, então aceita (8.264609ms)
+✔ quando não estou autenticado, então rejeita leitura e gravação (10.914251ms)
+✔ quando B tenta consultar, alterar ou excluir tarefa de A, então retorna 404 (20.432296ms)
+✔ quando cliente falsifica owner, então servidor mantém titularidade de A (13.374279ms)
+✔ quando POST idêntico chega duas vezes simultaneamente, então existe uma tarefa (15.629372ms)
+✔ quando duas edições usam mesma versão, então só uma vence (24.60379ms)
+✔ quando exclusão usa versão antiga, então retorna 409 sem apagar (30.465984ms)
+✔ quando reutilizo ID com dados diferentes ou outro usuário, então retorna 409 (31.312001ms)
+✔ quando envio JSON quebrado, conteúdo excessivo ou tipo errado, então rejeita (18.367368ms)
+✔ quando origem é externa ou ausente, então retorna 403 (8.154692ms)
+✔ quando título contém SQL ou HTML, então salva texto sem executar SQL (12.861601ms)
+✔ quando versão é zero, negativa ou ausente, então retorna 400 (13.232962ms)
+✔ quando fecho e reabro o banco real, então os dados permanecem (11.706811ms)
+ℹ tests 25
+ℹ suites 0
+ℹ pass 25
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 628.912287

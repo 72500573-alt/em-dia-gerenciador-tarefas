@@ -2,6 +2,8 @@
 
 **Sistema:** https://tarefas-nicollas-2026.windylens.chatgpt.site
 
+A página é pública; clique em **Entrar com ChatGPT** para usar suas tarefas. O GitHub ainda está pendente; este endereço é o sistema publicado.
+
 Projeto acadêmico desenvolvido com apoio do ChatGPT/Codex. Organiza tarefas da faculdade e do cotidiano, com CRUD completo, prioridade, prazo, pesquisa e status.
 
 ## Funcionalidades
@@ -64,6 +66,10 @@ Ordem aplicada: **Prompt 4 → Prompt 1 → Prompt 3 → Prompt 2**.
 - [Saída dos testes após a refatoração](docs/evidencias/testes-refatoracao-2.txt).
 
 **25 testes passaram; 0 falharam; 0 ignorados.** `npm test` cria SQLite real em pasta temporária, sobe HTTP local, exercita o handler publicado e apaga somente o banco temporário. A identidade externa é simulada; a suíte não valida o provedor ChatGPT, o wrapper Vinext nem o serviço D1 remoto. Não há mock do banco ou da regra de negócio.
+
+Veja também a [verificação visual e suas pendências](docs/VALIDACAO_MANUAL.md).
+
+![Página publicada aguardando autenticação](docs/evidencias/aplicacao-publicada.jpg)
 
 ## Limitações conhecidas
 Sem paginação, recuperação de exclusão ou compartilhamento de tarefas. Sem operação offline. Fonte remota tem fallback local. Não usar como armazenamento único de informação importante. Fluxos de pagamento, estoque, plano e webhook são não aplicáveis.
